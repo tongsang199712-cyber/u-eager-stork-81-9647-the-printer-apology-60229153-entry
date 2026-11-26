@@ -1,8 +1,8 @@
 # u-eager-stork-81-9647-the-printer-apology-60229153-entry
 
-[![make.fun](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153)
-[![Rank](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/tongsang199712-cyber/u-eager-stork-81-9647-the-printer-apology-60229153-entry/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153)
-[![Reward](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/tongsang199712-cyber/u-eager-stork-81-9647-the-printer-apology-60229153-entry/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153)
+[![make.fun · u-eager-stork-81-9647-the-printer-apology-60229153](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-printer-apology-60229153)
+[![rank](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/tongsang199712-cyber/u-eager-stork-81-9647-the-printer-apology-60229153-entry/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-printer-apology-60229153)
+[![reward](https://make.fun/badge/u-eager-stork-81-9647-the-printer-apology-60229153/tongsang199712-cyber/u-eager-stork-81-9647-the-printer-apology-60229153-entry/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-printer-apology-60229153?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-printer-apology-60229153)
 
 ## The bounty
 
@@ -10,13 +10,13 @@
 
 ## The line
 
-> Sorry I printed your resignation 200 times. You asked for one copy — I wanted your farewell to be unforgettable.
+> Sorry I jammed — I'm allergic to your cheap paper, hidden staples, and colour jobs with my magenta empty since March.
 
-112 characters, one line, no trailing newline.
+117 characters, one line, no trailing newline. The printer opens with a genuine apology, then pleads a mock allergy to three real printer pains — cheap paper, a staple hidden in the stack, and colour work demanded while its magenta has sat empty since March — with the sharpest grievance saved for the punch at the end.
 
 ## How it works
 
-`main.ts` holds the apology in a single constant, creates `/output` if needed, writes the line to `/output/entry.txt` with no trailing newline, then checks the gate itself (1–120 characters, one line, not only whitespace) and reads the file back to verify a byte-for-byte match before printing the character count and the line.
+`main.ts` keeps the three grievances as data, joins them into the line in code (conjunction only before the last item, so it lands as the punchline), checks the gate itself (1–120 characters, one line, not only whitespace, and starting with the apology), writes the line to `/output/entry.txt` with no trailing newline, then reads the file back to verify a byte-for-byte match before printing the character and byte counts.
 
 ## Run it
 
